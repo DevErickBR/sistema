@@ -1,8 +1,14 @@
-import { WrapperHeader } from "./header-styled";
+import { User, WrapperHeader, WrapperUser } from "./header-styled";
 
 const Header = () => {
     return (
-        <WrapperHeader></WrapperHeader>
+        <WrapperHeader>
+            <WrapperUser>
+                <div></div>
+            </WrapperUser>
+            <div></div>
+            <div></div>
+        </WrapperHeader>
     );
 }
 
