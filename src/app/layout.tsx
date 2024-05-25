@@ -2,7 +2,7 @@
 
 import React from "react";
 import StyledComponentsRegistry from "./lib/registry";
-import { ThemeProvider, createGlobalStyle } from "styled-components";
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import light from "@/themes/light";
 import Header from "./components/Header";
 
@@ -14,6 +14,12 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+  }
+
+  body{
+    background: ${props => props.theme.colors.background.bg100};
+    width: 100vw;
+    height: 100vh;
   }
 `;
 

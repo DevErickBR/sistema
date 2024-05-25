@@ -8,6 +8,8 @@ declare module 'styled-components' {
                 bg100: string;
                 bg200: string;
                 bg300: string;
+                bgcard: string;
+                bgdark: string
             },
             text: {
                 tx100: string;

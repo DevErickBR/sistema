@@ -2,9 +2,11 @@ export default {
     title: 'light',
     colors: {
         background: {
-            bg100: '#ffffff',
+            bg100: 'linear-gradient(45deg, #edecea, #dadada)',
             bg200: '#efacfd',
-            bg300: '#c90ff5'
+            bg300: '#c90ff5',
+            bgcard: 'linear-gradient(45deg, #48226C, #8200E7, #BF3EFF)',
+            bgdark: '#20062c'
         },
         text: {
             tx100: '#201024',
