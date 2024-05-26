@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Search, User, WrapperHeader, WrapperHouse, WrapperSeach, WrapperUser } from "./header-styled";
 import * as Icons from 'react-icons/fa6'
 
@@ -5,9 +6,9 @@ const Header = () => {
     return (
         <WrapperHeader>
             <WrapperHouse>
-                <div className="wrapper-icon-house">
+                <Link href={'/'}>
                     <Icons.FaHouse />
-                </div>
+                </Link>
             </WrapperHouse>
             <WrapperSeach>
                 <Search>

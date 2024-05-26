@@ -2,7 +2,7 @@
 
 import React from "react";
 import StyledComponentsRegistry from "./lib/registry";
-import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
+import { ThemeProvider, createGlobalStyle } from "styled-components";
 import light from "@/themes/light";
 import Header from "./components/Header";
 

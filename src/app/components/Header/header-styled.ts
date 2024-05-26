@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WrapperHeader = styled.div`
     width: 100vw;
     height: 4rem;
-    background: ${props => props.theme.colors.background.bgcard};
+    background: ${props => props.theme.colors.background.bgdark};
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     z-index:99;
@@ -98,20 +98,8 @@ export const WrapperHouse = styled.div`
     display: flex;
     align-items:center;
     justify-content:center;
-    .wrapper-icon-house{
-        width: 90%;
-        height: 90%;
-        border-radius: 50%;
-        background: ${props => props.theme.colors.background.bg100};
-        overflow:hidden;
-        transform: scale(0.7);
-        border: 4px solid transparent;
-        display: flex;
-        align-items:center;
-        justify-content:center;
-        svg{
+    svg{
         font-size:2.5rem;
-        color: ${props => props.theme.colors.background.bgdark + '80'};
-    }
+        color: #edecea;
     }
 `;

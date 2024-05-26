@@ -3,14 +3,14 @@ export default {
     colors: {
         background: {
             bg100: 'linear-gradient(45deg, #edecea, #dadada)',
-            bg200: '#efacfd',
-            bg300: '#c90ff5',
-            bgcard: 'linear-gradient(45deg, #48226C, #8200E7, #BF3EFF)',
-            bgdark: '#20062c'
+            bg200: '#543ad7',
+            bg300: '#21158f',
+            bgcard: 'linear-gradient(45deg, #1717cf, #2B2BFF, #5656FF)',
+            bgdark: '#1e1254'
         },
         text: {
             tx100: '#201024',
-            tx200: '#f5c8fe'
+            tx200: '#ffffff'
         },
         extras: {
             mx1: '#6d0ff5',
@@ -25,4 +25,4 @@ export default {
     }
 }
 
-// paleta gerada pela cor #c90ff5
+// paleta gerada pela cor #1717cf
