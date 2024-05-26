@@ -25,7 +25,7 @@ export const WrapperInfos = styled.div`
     font-size: 2rem;
     font-weight: 900;
     svg{
-        font-size: 3rem;
+        font-size: 7rem;
     }
 `;
 

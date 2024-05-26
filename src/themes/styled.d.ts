@@ -2,29 +2,29 @@ import 'styled-components';
 
 declare module 'styled-components' {
     export interface DefaulTheme {
-        title: string;
+        title: string,
         colors: {
             background: {
-                bg100: string;
-                bg200: string;
-                bg300: string;
-                bgcard: string;
+                bg100: string,
+                bg200: string,
+                bg300: string,
+                bgcard: string,
                 bgdark: string
             },
             text: {
-                tx100: string;
-                tx200: string;
+                tx100: string,
+                tx200: string
             },
             extras: {
-                mx1: string;
-                mx2: string;
-                mx3: string;
+                mx1: string,
+                mx2: string,
+                mx3: string
             },
             alerts: {
-                err: string;
-                sucess: string;
-                alert: string;
+                err: string,
+                sucess: string,
+                alert: string
             }
-        };
+        }
     }
 }

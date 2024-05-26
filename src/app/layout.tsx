@@ -16,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Poppins", sans-serif;
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   body{
     background: ${props => props.theme.colors.background.bg100};
     width: 100vw;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperHeader = styled.div`
     width: 100vw;
-    height: 4rem;
+    height: 6rem;
     background: ${props => props.theme.colors.background.bgdark};
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -31,7 +31,7 @@ export const User = styled.div`
         display:flex;
         align-items:end;
         justify-content:center;
-        font-size: 3rem;
+        font-size: 4rem;
         svg{
             color: ${props => props.theme.colors.background.bgdark + '80'};
         }
@@ -48,23 +48,22 @@ export const Search = styled.div`
     display:grid;
     grid-template-columns: 1fr 6fr;
     background: ${props => props.theme.colors.background.bg100};
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     width: 95%;
     height: 70%;
     overflow:hidden;
     .wrapper-icon {
         display:flex;
         align-items:center;
-        justify-content:space-between;
-        margin-left: 0.3rem;
+        justify-content:space-around;
         svg {
-            font-size: 1.5rem;
+            font-size: 2rem;
             color: ${props => props.theme.colors.background.bgdark + '80'};
         }
 
         &::after{
             content: '';
-            height: 1.75rem;
+            height: 2rem;
             width: 0.2rem;
             border-radius: 0.2rem;
             background-color:${props => props.theme.colors.text.tx100 + '66'};
@@ -76,15 +75,15 @@ export const Search = styled.div`
         
         ::-webkit-input-placeholder{
             text-align:center;
-            font-size: 1rem;
+            font-size: 1.3rem;
         }
         input{
-            margin-left:5px;
+            margin-left:0.5rem;
             width: 100%;
             height:80%;
             border:none;
             background-color:transparent;
-            font-size: 1.2rem;
+            font-size: 2rem;
 
             &:focus{
                 outline:none;

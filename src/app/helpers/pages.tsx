@@ -15,7 +15,7 @@ const pages: PageCustom[] = [
     {
         href: "/financeiro",
         title: "Financeiro",
-        Icon: Icons.FaBrazilianRealSign
+        Icon: Icons.FaMoneyBills
     },
 
 ]
