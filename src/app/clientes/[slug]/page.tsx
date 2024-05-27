@@ -1,3 +1,8 @@
+'use client'
+
+import TitleSection from "@/app/components/TitleSection";
+import * as S from "./styled-client";
+
 type Props = {
     params: {
         slug: string;
@@ -6,9 +11,14 @@ type Props = {
 
 const page = ({ params }: Props) => {
     return (
-        <div>
-            {params.slug}
-        </div>
+        <S.WrapperClient>
+            <S.Section>
+                <S.HeaderSection>
+                    <TitleSection content="Informações pessoais" />
+                </S.HeaderSection>
+                <S.Divisor />
+            </S.Section>
+        </S.WrapperClient>
     )
 
 };
