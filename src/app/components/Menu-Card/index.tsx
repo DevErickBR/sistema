@@ -1,4 +1,3 @@
-import { IconType } from "react-icons"
 import { Wrapper, WrapperInfos } from "./menu-card"
 import Link from "next/link";
 import { PageCustom } from "@/types/page";
